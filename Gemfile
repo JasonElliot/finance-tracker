@@ -12,6 +12,8 @@ gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '3.4.1'
 gem 'certified'
+gem 'stock_quote'
+gem 'hirb', '~> 0.7.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
