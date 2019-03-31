@@ -6,7 +6,7 @@ ruby '2.6.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
 # Use sqlite3 as the database for Active Record
-gem 'devise'
+gem 'devise',:git => 'git://github.com/plataformatec/devise.git'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
@@ -14,6 +14,7 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'certified'
 gem 'stock_quote'
 gem 'hirb', '~> 0.7.3'
+gem "font-awesome-rails"
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
